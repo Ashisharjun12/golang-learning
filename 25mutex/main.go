@@ -35,5 +35,6 @@ func main() {
 
 	wg.Wait()
 	fmt.Println("inc post", mypost.views)
+	fmt.Println("waitgrp",wg)
 
 }
